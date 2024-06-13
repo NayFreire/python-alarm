@@ -11,6 +11,7 @@ pygame.mixer.init()
 def play_alarm():
     pygame.mixer.music.load('alarm_project/connor.mp3')
     pygame.mixer.music.play()
+    messagebox.showinfo('Alarm', 'Your time is up')
 
 # Running a separate thread to verify the time
 def verify_time(time_alarm):
