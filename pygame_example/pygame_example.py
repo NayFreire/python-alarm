@@ -4,7 +4,7 @@ import pygame as pg
 pg.mixer.init()
 
 # Loading the audio file
-pg.mixer.music.load('connor.mp3')
+pg.mixer.music.load('pygame_example/connor.mp3')
 
 # Play the audio
 pg.mixer.music.play()
